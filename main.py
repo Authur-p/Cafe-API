@@ -141,20 +141,4 @@ def get_all():
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
 
-    # return jsonify(cafe={
-    #     # Omit the id from the response
-    #     # "id": random_cafe.id,
-    #     "name": random_cafe.name,
-    #     "map_url": random_cafe.map_url,
-    #     "img_url": random_cafe.img_url,
-    #     "location": random_cafe.location,
-    #
-    #     # Put some properties in a sub-category
-    #     "amenities": {
-    #         "seats": random_cafe.seats,
-    #         "has_toilet": random_cafe.has_toilet,
-    #         "has_wifi": random_cafe.has_wifi,
-    #         "has_sockets": random_cafe.has_sockets,
-    #         "can_take_calls": random_cafe.can_take_calls,
-    #         "coffee_price": random_cafe.coffee_price,
-    #     }
+
